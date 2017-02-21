@@ -6,7 +6,7 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        app: './src/app.ts',
+        app: './src/bootstrap.ts',
         vendor: './src/vendor.ts',
     },
     output: {
@@ -19,7 +19,11 @@ module.exports = {
     devtool: 'source-map',
 
     resolve: {
-        extensions: ['.ts', '.js'],
+        extensions: ['.ts', '.js', '.css'],
+    },
+
+    devServer: {
+        inline: true,
     },
 
     module: {
