@@ -3,15 +3,12 @@
         "module": "commonjs",
         "target": "es5",
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
-    },
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types" : [
-      "core-js"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+        "emitDecoratorMetadata": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types" : [
+            "core-js"
+        ]
+    }
 }

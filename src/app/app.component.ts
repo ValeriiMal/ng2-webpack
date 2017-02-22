@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'my-app',
     // styles: css,
-    template: '<button md-button>Hello from componentTTTTT</button>',
+    template: '<span>span</span>',
 })
 export class AppComponent {}
